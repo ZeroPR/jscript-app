@@ -19,5 +19,9 @@
   "homepage": "https://github.com/ZeroPR/jscript-app#readme",
   "devDependencies": {
     "electron": "^1.6.11"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "mongodb": "^2.2.31"
   }
 }

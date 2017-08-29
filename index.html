@@ -7,8 +7,24 @@
             }
         </style>
     </head>
-
     <body>
+        <form id="costumer">
+            <label for="txtNombre">Nombre:</label>
+            <input type="text" id="txtNombre" name="txtNombre" /><br>
 
+            <label for="txtApellido">Apellido:</label>
+            <input type="text" id="txtApellido" name="txtApellido" /><br>
+
+            <label for="txtId">ID:</label>
+            <input type="text" id="txtId" name="txtId" /><br>
+
+            <label for="txtPhone">Phone</label>
+            <input type="text" id="txtPhone" name="txtPhone" /><br>
+            
+            <button id="btnSend">Send</button>
+            <button id="btnSearch">Search</button>
+        </form>
+        <div id="content"></div>
+        <script>require('./app.js');</script>
     </body>
 </html>
