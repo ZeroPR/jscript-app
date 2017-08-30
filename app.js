@@ -56,3 +56,23 @@ $('#btnSearch').click((e)=>{
     e.preventDefault();
     ipcRenderer.send('btnSearchClick');
 });
+
+var app = new Vue({
+    el: '#app',
+    data: {
+        "links": [
+            {
+                "title": "Home",
+                "href": "#"
+            },
+            {
+                "title": "Menu",
+                "href": "#"
+            },
+            {
+                "title": "Movies",
+                "href": "#"
+            }
+        ]
+    }
+});
